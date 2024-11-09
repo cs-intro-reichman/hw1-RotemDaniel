@@ -9,7 +9,7 @@ public class Bill3 {
 	   String var3 = var0[2];
 	   int var4 = Integer.parseInt(var0[3]);
 	   double var5 = Math.ceil((double)var4 / 3.0);
-	   System.out.println("Dear " + var1 + ", " + var2 + ", and " + var3 + ": pay " + var5 + " Shekels each.");
+	   System.out.println("Dear " + var3 + ", " + var2 + ", and " + var1 + ": pay " + var5 + " Shekels each.");
 	}
  }
  

@@ -19,22 +19,22 @@ public class TimeFormat {
 			{hours = hours-12;}
 			if (minutes < 10)
 			{
-				System.out.println(hours + ":0" + minutes + " pm");
+				System.out.println(hours + ":0" + minutes + " PM");
 			}
 			else
 			{
-				System.out.println(hours + ":" + minutes + " pm");
+				System.out.println(hours + ":" + minutes + " PM");
 			}
 		}
 		else
 		{
 			if (minutes < 10)
 			{
-				System.out.println(hours + ":0" + minutes + " am");
+				System.out.println(hours + ":0" + minutes + " AM");
 			}
 			else
 			{
-				System.out.println(hours + ":" + minutes + " am");
+				System.out.println(hours + ":" + minutes + " AM");
 			}
 		}
 	}
